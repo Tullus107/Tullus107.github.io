@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,600i,900');
+body {
+  background-color: #51a7b9;
+  font-family: "Muli", sans-serif;
+}
+h1 {
+  color: Black;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  border-style: groove;
+  margin: 10px 5px 10px 5px;
+  padding: 10px 5px 10px 5px;
+}
+h2 {
+  color: white;
+}
+hr {
+  border: 1px solid white;
+  max-width: 90px;
+  margin: 40px auto;
+}
+.fuzzy {
+  color: #51a7b9;
+  text-shadow: black;
+}
+#mammal {
+  color: #e1aa3d;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#bird {
+  color: #51a7b9;
+  font-style: italic;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#fish {
+  color: black;
+  text-decoration: underline;
+  padding: 20px 10px 10px 10px
+}
+#firstList {
+  background-color: white;
+}
+li {
+  display: inline-block;
+  margin: 30px;
+}
+
+li:hover {
+  background-color: black;
+  color: white;
+}
